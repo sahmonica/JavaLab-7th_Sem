@@ -1,6 +1,6 @@
 public class FrequencyOfEachElement {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 5, 7, 8, 9, 1, 3, 5, 9, 9, 9, 1, 1, 8, 7};
+        int[] arr = {4, 4, 2, 1, 2, 3}
         boolean[] visited = new boolean[arr.length]; // track visited indices
 
         System.out.println("Frequency of each Unique element: ");
